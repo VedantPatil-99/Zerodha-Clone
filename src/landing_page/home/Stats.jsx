@@ -1,6 +1,7 @@
-import ecosystemImg from "../../assets/images/ecosystem.png";
+import ecosystemImg from "@assets/images/ecosystem.png";
 import WhyUsFrag from "./WhyUsFrag";
-import helpersWhyUsData from "../../helpers.json";
+import helpersWhyUsData from "@/helpers.json";
+import ArrowLink from "@components/ArrowLink";
 
 const Stats = () => {
 	return (
@@ -19,11 +20,11 @@ const Stats = () => {
 							))}
 						</div>
 					</div>
-					<img
-						src={ecosystemImg}
-						alt="The Zerodha Universe"
-						className="col-span-7"
-					/>
+					<div className="col-span-7 text-center ">
+						<img src={ecosystemImg} alt="The Zerodha Universe" />
+						<ArrowLink href="#">Explore our products</ArrowLink>
+						<ArrowLink href="#">Try Kite demo </ArrowLink>
+					</div>
 				</div>
 			</section>
 		</>

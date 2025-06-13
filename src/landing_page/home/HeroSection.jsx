@@ -17,7 +17,7 @@ const HeroSection = () => {
 						Online platform to invest in stocks, derivatives, mutual funds,
 						ETFs, bonds, and more.
 					</p>
-					<button className="bg-sky-600 text-white text-xl font-medium p-2 w-50 rounded-sm hover:bg-black ">
+					<button className="bg-sky-600 text-white text-xl font-medium p-2 w-52 rounded-sm hover:bg-black ">
 						Sign up for free
 					</button>
 				</div>
