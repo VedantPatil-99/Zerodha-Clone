@@ -1,5 +1,6 @@
 import React from "react";
-import homeHero from "../../assets/images/homeHero.png";
+import homeHero from "@assets/images/homeHero.png";
+import Button from "@components/common/Button";
 const HeroSection = () => {
 	return (
 		<>
@@ -17,9 +18,7 @@ const HeroSection = () => {
 						Online platform to invest in stocks, derivatives, mutual funds,
 						ETFs, bonds, and more.
 					</p>
-					<button className="bg-sky-600 text-white text-xl font-medium p-2 w-52 rounded-sm hover:bg-black ">
-						Sign up for free
-					</button>
+					<Button>Sign up for free</Button>
 				</div>
 			</section>
 		</>
