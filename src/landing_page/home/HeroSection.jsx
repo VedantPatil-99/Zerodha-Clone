@@ -3,7 +3,7 @@ import homeHero from "../../assets/images/homeHero.png";
 const HeroSection = () => {
 	return (
 		<>
-			<div className="flex flex-col items-center mt-9 h-screen p-5 sm:px-5">
+			<section className="flex flex-col items-center mt-9 px-5 py-7 md:pb-32 md:px-5">
 				<img
 					src={homeHero}
 					alt="landing-home-hero-img"
@@ -21,7 +21,7 @@ const HeroSection = () => {
 						Sign up for free
 					</button>
 				</div>
-			</div>
+			</section>
 		</>
 	);
 };

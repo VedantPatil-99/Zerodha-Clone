@@ -5,7 +5,7 @@ import helpersWhyUsData from "../../helpers.json";
 const Stats = () => {
 	return (
 		<>
-			<section className="px-5">
+			<section className="p-5 mt-7">
 				<div className="md:grid md:grid-cols-12 xl:mx-24 flex flex-col items-center gap-8">
 					<div className="col-span-5">
 						<h2 className="header-2">Trust with confidence</h2>
