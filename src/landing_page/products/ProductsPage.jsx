@@ -1,5 +1,5 @@
 import React from "react";
-import HeroSection from "./../pricing/HeroSection";
+import HeroSection from "./HeroSection";
 import ImgLeftBlock from "./ImgLeftBlock";
 import ImgRightBlock from "./ImgRightBlock";
 import Universe from "./Universe";
