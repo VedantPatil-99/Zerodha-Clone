@@ -8,7 +8,7 @@ const Stats = () => {
 	return (
 		<>
 			<section className="mt-[1.875rem] section-spacing flex flex-col items-center gap-8">
-				<div className="md:grid md:grid-cols-12 xl:mx-24 flex flex-col items-center gap-8">
+				<div className="md:grid md:grid-cols-12 holder flex flex-col items-center gap-8">
 					<div className="col-span-5">
 						<h2 className="header-2">Trust with confidence</h2>
 						<div className="why-us-frag">
