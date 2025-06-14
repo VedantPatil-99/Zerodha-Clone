@@ -23,11 +23,13 @@ const Stats = () => {
 					</div>
 					<div className="col-span-7 text-center">
 						<img src={ecosystemImg} alt="The Zerodha Universe" />
-						<ArrowLink href="#">Explore our products</ArrowLink>
-						<ArrowLink href="#">Try Kite demo </ArrowLink>
+						<div className="my-4 flex gap-8 justify-center">
+							<ArrowLink href="#">Explore our products </ArrowLink>
+							<ArrowLink href="#">Try Kite demo </ArrowLink>
+						</div>
 					</div>
 				</div>
-				<img src={pressLogos} alt="press-logos-strip" className="mt-8" />
+				<img src={pressLogos} alt="press-logos-strip" className="mt-6" />
 			</section>
 		</>
 	);
