@@ -1,10 +1,9 @@
-import React from "react";
 import homeHero from "@assets/images/homeHero.png";
 import Button from "@components/common/Button";
 const HeroSection = () => {
 	return (
 		<>
-			<section className="flex flex-col items-center mt-9 px-5 py-7 md:pb-32 md:px-5">
+			<section className="flex flex-col items-center section-spacing mt-9">
 				<img
 					src={homeHero}
 					alt="landing-home-hero-img"
