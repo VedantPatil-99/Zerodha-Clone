@@ -37,11 +37,10 @@ const Pricing = () => {
 							</div>
 						</div>
 					</div>
-					<p>
-						<ArrowLink href="#" className="ps-0.5">
-							See pricing
-						</ArrowLink>
-					</p>
+
+					<ArrowLink href="#" className="ps-0.5">
+						See pricing
+					</ArrowLink>
 				</div>
 			</section>
 		</>
