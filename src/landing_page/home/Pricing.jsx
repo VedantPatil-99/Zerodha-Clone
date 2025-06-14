@@ -42,17 +42,4 @@ const Pricing = () => {
 	);
 };
 
-{
-	/* <div className="inline-block w-max h-max">
-	<img
-		src={pricingEq}
-		alt="pricing-equity"
-		className="size-30 relative top-1"
-	/>
-	<p className="relative text-[10px] font-normal text-slate-800 bottom-16 left-10/12">
-		Free account <br /> opening
-	</p>
-</div>; */
-}
-
 export default Pricing;
