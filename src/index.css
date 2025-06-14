@@ -1,1 +1,17 @@
 @import "tailwindcss";
+
+.header-1 {
+	@apply text-3xl font-semibold text-zinc-700 mb-5;
+}
+
+.header-2 {
+	@apply text-3xl font-semibold text-zinc-700 mb-10;
+}
+
+.section-spacing {
+	@apply px-5 py-7 md:pb-32 md:px-5;
+}
+
+.holder {
+	@apply xl:mx-24;
+}
