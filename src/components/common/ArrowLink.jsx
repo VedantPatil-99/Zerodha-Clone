@@ -1,6 +1,6 @@
-export default function ArrowLink({ href, children }) {
+export default function ArrowLink({ href, children, className = "" }) {
 	return (
-		<a href={href} className={"text-sky-600 hover:text-black"}>
+		<a href={href} className={`text-sky-600 hover:text-black ${className}`}>
 			<span className="text-md font-medium font-stretch-expanded">
 				{children}
 			</span>

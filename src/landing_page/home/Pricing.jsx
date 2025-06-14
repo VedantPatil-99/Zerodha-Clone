@@ -1,5 +1,6 @@
 import pricingEq from "@assets/images/pricing0.svg";
 import intradayEq from "@assets/images/intradayTrades.svg";
+import ArrowLink from "@components/common/ArrowLink";
 
 const Pricing = () => {
 	return (
@@ -9,7 +10,7 @@ const Pricing = () => {
 					<div className="grid md:grid-cols-12 gap-4 items-center">
 						<div className="col-span-5">
 							<h2 className="header-1">Unbeatable pricing</h2>
-							<p className="text-lg font-normal my-4 leading-8 text-slate-800 mb-10">
+							<p className="text-lg font-normal my-4 leading-8 text-slate-700">
 								We pioneered the concept of discount broking and price
 								transparency in India. Flat fees and no hidden charges.
 							</p>
@@ -36,6 +37,11 @@ const Pricing = () => {
 							</div>
 						</div>
 					</div>
+					<p>
+						<ArrowLink href="#" className="ps-0.5">
+							See pricing
+						</ArrowLink>
+					</p>
 				</div>
 			</section>
 		</>
