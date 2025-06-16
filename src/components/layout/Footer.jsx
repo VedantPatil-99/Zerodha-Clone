@@ -1,6 +1,7 @@
 import LinksFooter from "./LinksFooter";
 import SmallprintsFooter from "./SmallprintsFooter";
 import FirstMainFooter from "./FirstMainFooter";
+import LinkStripFooter from "./LinkStripFooter";
 
 const Footer = () => {
 	return (
@@ -25,6 +26,9 @@ const Footer = () => {
 					<SmallprintsFooter />
 
 					{/* Link Strip */}
+					<div className="text-center text-sm text-zinc-500">
+						<LinkStripFooter />
+					</div>
 				</div>
 			</footer>
 		</>

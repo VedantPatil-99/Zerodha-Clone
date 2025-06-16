@@ -1,11 +1,11 @@
-import helpers from "../../helpers.json";
+import helpers from "@/helpers.json";
 
 const LinksFooter = () => {
 	return (
 		<>
 			{helpers.footerLinks.map((sections, idx) => (
-				<div className="col-span-3">
-					<ul key={idx} className="mb-6">
+				<div key={idx} className="col-span-3">
+					<ul className="mb-6">
 						<h3 className="text-lg font-semibold text-zinc-700 mb-2.5">
 							{sections.title}
 						</h3>

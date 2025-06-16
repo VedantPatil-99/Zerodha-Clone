@@ -86,25 +86,25 @@ const footerLinks = [
 ];
 
 const footerStrip = [
-	{ title: "NSE", url: "https://nseindia.com" },
-	{ title: "BSE", url: "https://www.bseindia.com/" },
-	{ title: "MCX", url: "https://www.mcxindia.com/" },
+	{ name: "NSE", url: "https://nseindia.com" },
+	{ name: "BSE", url: "https://www.bseindia.com/" },
+	{ name: "MCX", url: "https://www.mcxindia.com/" },
 	{
-		title: "Terms & conditions",
+		name: "Terms & conditions",
 		url: "https://zerodha.com/terms-and-conditions/",
 	},
 	{
-		title: "Policies & procedures",
+		name: "Policies & procedures",
 		url: "https://zerodha.com/policies-and-procedures/",
 	},
-	{ title: "Privacy policy", url: "https://zerodha.com/privacy-policy/" },
-	{ title: "Disclosure", url: "https://zerodha.com/disclosure/" },
+	{ name: "Privacy policy", url: "https://zerodha.com/privacy-policy/" },
+	{ name: "Disclosure", url: "https://zerodha.com/disclosure/" },
 	{
-		title: "For investor's attention",
+		name: "For investor's attention",
 		url: "https://zerodha.com/investor-attention/",
 	},
 	{
-		title: "Investor charter",
+		name: "Investor charter",
 		url: "https://zerodha.com/tos/investor-charter/",
 	},
 ];
