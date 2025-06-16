@@ -32,7 +32,61 @@ const eduData = [
 	},
 ];
 
+const footerLinks = [
+	{
+		title: "Account",
+		links: [
+			{ name: "Open demat account", url: "#" },
+			{ name: "Minor demat account", url: "#" },
+			{ name: "NRI demat account", url: "#" },
+			{ name: "Commodity", url: "#" },
+			{ name: "Dematerialisation", url: "#" },
+			{ name: "Fund transfer", url: "#" },
+			{ name: "MTF", url: "#" },
+			{ name: "Referral program", url: "#" },
+		],
+	},
+	{
+		title: "Support",
+		links: [
+			{ name: "Contact us", url: "#" },
+			{ name: "Support portal", url: "#" },
+			{ name: "How to file a complaint?", url: "#" },
+			{ name: "Status of your complaints", url: "#" },
+			{ name: "Bulletin", url: "#" },
+			{ name: "Circular", url: "#" },
+			{ name: "Z-Connect blog", url: "#" },
+			{ name: "Downloads", url: "#" },
+		],
+	},
+	{
+		title: "Company",
+		links: [
+			{ name: "About", url: "#" },
+			{ name: "Philosophy", url: "#" },
+			{ name: "Press & media", url: "#" },
+			{ name: "Careers", url: "#" },
+			{ name: "Zerodha Cares (CSR)", url: "#" },
+			{ name: "Zerodha.tech", url: "#" },
+			{ name: "Open source", url: "#" },
+		],
+	},
+	{
+		title: "Quick links",
+		links: [
+			{ name: "Upcoming IPOs", url: "#" },
+			{ name: "Brokerage charges", url: "#" },
+			{ name: "Market holidays", url: "#" },
+			{ name: "Economic calendar", url: "#" },
+			{ name: "Calculators", url: "#" },
+			{ name: "Markets", url: "#" },
+			{ name: "Sectors", url: "#" },
+		],
+	},
+];
+
 export default {
 	whyUsFragData,
 	eduData,
+	footerLinks,
 };
