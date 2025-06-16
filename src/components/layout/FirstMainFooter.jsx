@@ -2,13 +2,13 @@ import mainLogo from "@assets/images/logo.svg";
 const FirstMainFooter = () => {
 	return (
 		<>
-			<div classNameName="footer-logo">
-				<img src={mainLogo} alt="footer logo" classNameName="w-40 py-3.5" />
+			<div className="footer-logo">
+				<img src={mainLogo} alt="footer logo" className="w-40 py-3.5" />
 			</div>
-			<p classNameName="text-zinc-700 text-sm leading-7">
+			<p className="text-zinc-700 text-sm leading-7">
 				&copy; 2010 - 2025, Zerodha Broking Ltd.
 			</p>
-			<p classNameName="text-zinc-700 text-sm">All rights reserved.</p>
+			<p className="text-zinc-700 text-sm">All rights reserved.</p>
 			<ul className="flex flex-wrap gap-6 mt-4 pb-4">
 				<li>
 					<a target="_blank" href="https://twitter.com/zerodhaonline">
