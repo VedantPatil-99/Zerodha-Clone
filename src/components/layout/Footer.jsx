@@ -6,7 +6,7 @@ import LinkStripFooter from "./LinkStripFooter";
 const Footer = () => {
 	return (
 		<>
-			<footer className="bg-zinc-50 pt-8 pb-1.5 border-t-[.1px] border-t-gray-200">
+			<footer className="bg-zinc-50 p-4 pt-8 pb-1.5 border-t-[.1px] border-t-gray-200">
 				<div className="holder">
 					<div className="flex flex-col md:flex-row gap-4 justify-between items-start ">
 						{/* Main Footer - I */}
@@ -26,7 +26,7 @@ const Footer = () => {
 					<SmallprintsFooter />
 
 					{/* Link Strip */}
-					<div className="text-center text-sm text-zinc-500">
+					<div className="text-center text-sm text-zinc-500 my-4">
 						<LinkStripFooter />
 					</div>
 				</div>
