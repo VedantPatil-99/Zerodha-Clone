@@ -1,5 +1,3 @@
-import React from "react";
-
 const SmallprintsFooter = () => {
 	return (
 		<div class="text-xs text-neutral-400 leading-5 mt-6 mb-4 px-4 md:px-0">
