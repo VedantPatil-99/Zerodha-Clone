@@ -18,13 +18,13 @@ const Pricing = () => {
 						<div className="col-span-7 flex flex-wrap justify-start items-start md:gap-0 gap-y-4">
 							<div className="pricing-box inline-block w-44 h-20 flex-none">
 								<img src={pricingEq} alt="" className="h-20 md:h-24 absolute" />
-								<p className="relative text-[10px] w-auto font-normal text-slate-800 top-10 left-24 md:top-11 md:left-28">
+								<p className="relative text-[10px] w-28 font-normal text-slate-800 top-10 left-24 md:top-11 md:left-28">
 									Free account <br /> opening
 								</p>
 							</div>
 							<div className="pricing-box inline-block h-20 flex-grow ">
 								<img src={pricingEq} alt="" className="h-20 md:h-24 absolute" />
-								<p className="block relative text-[10px] font-normal font-stretch-condensed text-slate-800 top-10 left-20 md:top-11 md:left-28">
+								<p className="block relative text-[10px] w-28 font-normal font-stretch-condensed text-slate-800 top-10 left-20 md:top-11 md:left-28">
 									Free equity delivery <br />
 									and direct mutual funds
 								</p>
@@ -35,7 +35,7 @@ const Pricing = () => {
 									alt=""
 									className="h-20 md:h-24 absolute"
 								/>
-								<p className="relative text-[10px] w-40 font-normal text-slate-800 top-10 left-28 md:top-11 md:left-32">
+								<p className="relative text-[10px] w-24 font-normal text-slate-800 top-10 left-28 md:top-11 md:left-32">
 									Intraday and <br /> F&O
 								</p>
 							</div>
