@@ -8,7 +8,7 @@ const Education = () => {
 		<>
 			<section className="section-spacing">
 				<div className="holder">
-					<div className="flex flex-col md:flex-row gap-32 items-center justify-between">
+					<div className="flex flex-col gap-4 md:flex-row md:gap-32 items-center md:justify-between">
 						<div className="">
 							<img
 								src={eduImg}
