@@ -21,4 +21,18 @@ const whyUsFragData = [
 	},
 ];
 
-export default whyUsFragData;
+const eduData = [
+	{
+		description:
+			"Varsity, the largest online stock market education book in the world covering everything from the basics to advanced trading.",
+	},
+	{
+		description:
+			"TradingQ&A, the most active trading and investment community in India for all your market related queries.",
+	},
+];
+
+export default {
+	whyUsFragData,
+	eduData,
+};

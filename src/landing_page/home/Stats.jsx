@@ -1,6 +1,6 @@
 import ecosystemImg from "@assets/images/ecosystem.png";
 import WhyUsFrag from "./WhyUsFrag";
-import helpersWhyUsData from "@/helpers.json";
+import helpers from "@/helpers.json";
 import ArrowLink from "@components/common/ArrowLink";
 import pressLogos from "@assets/images/pressLogos.png";
 
@@ -12,7 +12,7 @@ const Stats = () => {
 					<div className="col-span-5">
 						<h2 className="header-2">Trust with confidence</h2>
 						<div className="why-us-frag">
-							{helpersWhyUsData.map((item, idx) => (
+							{helpers.whyUsFragData.map((item, idx) => (
 								<WhyUsFrag
 									key={idx}
 									title={item.title}
