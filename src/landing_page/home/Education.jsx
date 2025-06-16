@@ -1,6 +1,8 @@
+import React from "react";
 import eduImg from "@assets/images/education.svg";
 import helpers from "@/helpers.json";
 import ArrowLink from "@components/common/ArrowLink";
+
 const Education = () => {
 	return (
 		<>
@@ -17,16 +19,14 @@ const Education = () => {
 						<div className="">
 							<h2 className="header-1">Free and open market education</h2>
 							{helpers.eduData.map((item, idx) => (
-								<>
-									<p
-										idx={idx}
-										className="text-lg text-slate-500 my-4 leading-8">
+								<React.Fragment key={idx}>
+									<p className="text-lg text-slate-500 my-4 leading-8">
 										{item.description}
 									</p>
 									<ArrowLink href={idx ? "#" : "#"} className="mb-8">
 										{idx ? "TradingQ&A" : "Varsity"}
 									</ArrowLink>
-								</>
+								</React.Fragment>
 							))}
 						</div>
 					</div>
