@@ -4,7 +4,7 @@ const LinksFooter = () => {
 	return (
 		<>
 			{helpers.footerLinks.map((sections, idx) => (
-				<div key={idx} className="col-span-3">
+				<div key={idx} className="col-span-1">
 					<ul className="mb-6">
 						<h3 className="text-lg font-semibold text-zinc-700 mb-2.5">
 							{sections.title}

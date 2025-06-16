@@ -32,7 +32,7 @@ const FirstMainFooter = () => {
 				</li>
 			</ul>
 			<hr className="opacity-5 my-1" />
-			<ul className="social flex flex-wrap gap-6 mt-4 pb-2">
+			<ul className="social flex flex-wrap gap-6 my-4 pb-2">
 				<li>
 					<a target="_blank" href="https://www.youtube.com/@zerodhaonline">
 						<i className="fa-brands fa-youtube fa-lg opacity-65"></i>
