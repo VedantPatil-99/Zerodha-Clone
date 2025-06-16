@@ -1,4 +1,4 @@
-const WhyUsSection = ({ title, description }) => {
+const WhyUsFrag = ({ title, description }) => {
 	return (
 		<>
 			<h2 className="text-xl font-semibold text-zinc-700">{title}</h2>
@@ -9,4 +9,4 @@ const WhyUsSection = ({ title, description }) => {
 	);
 };
 
-export default WhyUsSection;
+export default WhyUsFrag;

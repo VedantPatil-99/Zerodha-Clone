@@ -1,4 +1,4 @@
-const WhyUsFragData = [
+const whyUsFragData = [
 	{
 		title: "Customer-first always",
 		description:
@@ -21,4 +21,4 @@ const WhyUsFragData = [
 	},
 ];
 
-export default WhyUsFragData;
+export default whyUsFragData;
