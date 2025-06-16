@@ -7,7 +7,7 @@ const HeroSection = () => {
 				<img
 					src={homeHero}
 					alt="landing-home-hero-img"
-					className="w-3xl mb-16"
+					className="w-3xl mb-10 md:mb-16"
 				/>
 				<div className="mx-auto text-center">
 					<h1 className="text-5xl font-semibold text-black opacity-75 mb-6">
