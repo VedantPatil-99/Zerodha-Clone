@@ -23,6 +23,8 @@ const Footer = () => {
 
 					{/* Smallprint */}
 					<SmallprintsFooter />
+
+					{/* Link Strip */}
 				</div>
 			</footer>
 		</>
