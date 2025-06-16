@@ -1,6 +1,6 @@
 const SmallprintsFooter = () => {
 	return (
-		<div class="text-xs text-neutral-400 leading-5 mt-6 mb-4 px-4 md:px-0">
+		<div className="text-xs text-neutral-400 leading-5 mt-6 mb-4 px-4 md:px-0">
 			<p className="mb-2.5">
 				Zerodha Broking Ltd.: Member of NSE, BSE &amp;MCX - SEBI Registration
 				no.: INZ000031633 CDSL/NSDL: Depository services through Zerodha Broking
