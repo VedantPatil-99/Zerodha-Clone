@@ -7,13 +7,13 @@ const Navbar = () => {
 			<nav className="border-b-[.1px] border-b-gray-200 h-16 md:h-16 sticky top-0 z-10 bg-white md:p-0 px-4">
 				<div className="holder md:px-5 flex justify-between items-center h-full">
 					<div className="logo my-4">
-						<a href="#">
+						<Link to="/">
 							<img
 								src={mainLogo}
 								alt="Zerodha Logo"
 								className="w-32 px-2 sm:p-0"
 							/>
-						</a>
+						</Link>
 					</div>
 					<div className="nav-links">
 						<ul className="hidden md:flex md:flex-row gap-10 text-zinc-500 opacity-95">
