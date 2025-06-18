@@ -1,4 +1,5 @@
 import mainLogo from "@assets/images/logo.svg";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
 	return (
@@ -17,29 +18,29 @@ const Navbar = () => {
 					<div className="nav-links">
 						<ul className="hidden md:flex md:flex-row gap-10 text-zinc-500 opacity-95">
 							<li>
-								<a href="#" className="hover:text-blue-500 ">
+								<Link to="/signup" className="hover:text-blue-500 ">
 									Signup
-								</a>
+								</Link>
 							</li>
 							<li>
-								<a href="#" className="hover:text-blue-500 ">
+								<Link to="/about" className="hover:text-blue-500 ">
 									About
-								</a>
+								</Link>
 							</li>
 							<li>
-								<a href="#" className="hover:text-blue-500 ">
+								<Link to="/products" className="hover:text-blue-500 ">
 									Products
-								</a>
+								</Link>
 							</li>
 							<li>
-								<a href="#" className="hover:text-blue-500 ">
+								<Link to="/pricing" className="hover:text-blue-500 ">
 									Pricing
-								</a>
+								</Link>
 							</li>
 							<li>
-								<a href="#" className="hover:text-blue-500 ">
+								<Link to="/support" className="hover:text-blue-500 ">
 									Support
-								</a>
+								</Link>
 							</li>
 							<li>
 								<a href="#" className="text-zinc-800">

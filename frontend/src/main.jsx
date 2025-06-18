@@ -2,8 +2,8 @@ import { createRoot } from "react-dom/client";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./index.css";
 
-import { Footer } from "@components/layout/Footer";
-import { Navbar } from "@components/layout/Navbar";
+import Footer from "@components/layout/Footer";
+import Navbar from "@components/layout/Navbar";
 import AboutPage from "./landing_page/about/AboutPage";
 import HomePage from "./landing_page/home/HomePage";
 import PricingPage from "./landing_page/pricing/PricingPage";
