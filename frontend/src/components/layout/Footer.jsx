@@ -16,7 +16,7 @@ const Footer = () => {
 
 						{/* Main Footer - II */}
 						<div>
-							<div className="grid md:grid-cols-4 gap-x-2 md:gap-x-6">
+							<div className="grid md:grid-cols-4 gap-x-4 md:gap-x-12">
 								<LinksFooter />
 							</div>
 						</div>
