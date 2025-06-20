@@ -1,4 +1,5 @@
 import nithinImg from "@assets/images/nithinKamath.jpg";
+import TeamMember from "./TeamMember";
 
 const Team = () => {
 	return (
@@ -52,6 +53,14 @@ const Team = () => {
 							</p>
 						</div>
 					</div>
+				</div>
+			</section>
+			<section className="holder">
+				<div className="grid md:grid-cols-3 gap-10 text-center place-items-center">
+					<TeamMember />
+					<TeamMember />
+					<TeamMember />
+					<TeamMember />
 				</div>
 			</section>
 		</>
