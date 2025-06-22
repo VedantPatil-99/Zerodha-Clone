@@ -55,11 +55,8 @@ const Team = () => {
 					</div>
 				</div>
 			</section>
-			<section className="holder">
-				<div className="grid md:grid-cols-3 gap-10 text-center place-items-center">
-					<TeamMember />
-					<TeamMember />
-					<TeamMember />
+			<section className="holder px-5 mb-12 md:py-0">
+				<div className="grid md:grid-cols-3 gap-10 text-center ">
 					<TeamMember />
 				</div>
 			</section>
