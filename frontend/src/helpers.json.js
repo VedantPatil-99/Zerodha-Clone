@@ -109,9 +109,63 @@ const footerStrip = [
 	},
 ];
 
+import nikhilImg from "@assets/images/Nikhil.jpg";
+import kailashImg from "@assets/images/Kailash.jpg";
+import venuImg from "@assets/images/Venu.jpg";
+import hananImg from "@assets/images/Hanan.jpg";
+import seemaImg from "@assets/images/Seema.jpg";
+import karthikImg from "@assets/images/Karthik.jpg";
+import austinImg from "@assets/images/Austin.jpg";
+
+const teamMembers = [
+	{
+		name: "Nikhil Kamath",
+		position: "Co-founder & CFO",
+		bio: "Nikhil is an astute and experienced investor, and he heads financial planning at Zerodha. An avid reader, he always appreciates a good game of chess.",
+		image: nikhilImg,
+	},
+	{
+		name: "Dr. Kailash Nadh",
+		position: "CTO",
+		bio: "Kailash has a PhD in Artificial Intelligence & Computational Linguistics, and is the brain behind all our technology and products. He has been a developer from his adolescence and continues to write code every day.",
+		image: kailashImg,
+	},
+	{
+		name: "Venu Madhav",
+		position: "COO",
+		bio: "Venu is the backbone of Zerodha taking care of operations and ensuring that we are compliant to rules and regulations. He has over a dozen certifications in financial markets and is also proficient in technical analysis. Workouts, cycling, and adventuring is what he does outside of Zerodha.",
+		image: venuImg,
+	},
+	{
+		name: "Hanan Delvi",
+		position: "CCO",
+		bio: "We take pride in the way we support our clients, and Hanan is responsible for this with his never ending flow of energy. He is the man behind many of our support initiatives that have helped us stay ahead of the game. A free thinker, Hanan can be seen posing as one in his free time.",
+		image: hananImg,
+	},
+	{
+		name: "Seema Patil",
+		position: "Director",
+		bio: "Seema who has lead the quality team since the beginning of Zerodha, is now a director. She is an extremely disciplined fitness enthusiast.",
+		image: seemaImg,
+	},
+	{
+		name: "Karthik Rangappa",
+		position: "Chief of Education",
+		bio: "Karthik 'Guru' Rangappa single handledly wrote Varsity, Zerodha's massive educational program. He heads investor education initiatives at Zerodha and loves stock markets, classic rock, single malts, and photography.",
+		image: karthikImg,
+	},
+	{
+		name: "Austin Prakesh",
+		position: "Director Strategy",
+		bio: "Austin is a successful self-made entrepreneur from Singapore. His area of specialty revolves around helping organisations including grow by optimizing revenue streams and creating growth strategies. He is a boxing enthusiast and loves collecting exquisite watches.",
+		image: austinImg,
+	},
+];
+
 export default {
 	whyUsFragData,
 	eduData,
 	footerLinks,
 	footerStrip,
+	teamMembers,
 };
