@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const HeroSection = () => {
 	return (
 		<>
-			<section className="holder text-center border-b-[.1px] border-b-gray-200 py-24 px-5 md:px-0">
+			<section className="holder text-center border-bottom py-24 px-5 md:px-0">
 				<h1 className="text-3xl leading-12 font-semibold opacity-70">
 					We pioneered the discount broking model in India.
 					<br />

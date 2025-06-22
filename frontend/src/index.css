@@ -15,3 +15,11 @@
 .holder {
 	@apply xl:mx-24;
 }
+
+.border-bottom {
+	@apply border-b-[.1px] border-b-gray-200;
+}
+
+.border-top {
+	@apply border-t-[.1px] border-t-gray-200;
+}
