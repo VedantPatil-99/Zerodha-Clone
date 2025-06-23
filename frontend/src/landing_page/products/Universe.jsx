@@ -1,9 +1,7 @@
-import React from "react";
-
 const Universe = () => {
 	return (
 		<>
-			<div className="section-spacing text-center">
+			<div className="section-spacing-reverse text-center">
 				<p className="text-xl pt-2 5 pb-4 text-zinc-600">
 					Want to know more about our technology stack? Check out the{" "}
 					<a
