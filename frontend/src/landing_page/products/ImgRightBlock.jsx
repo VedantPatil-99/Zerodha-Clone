@@ -17,7 +17,11 @@ const ImgRightBlock = ({ data }) => {
 					</div>
 					<div className="w-fit my-2">
 						<Link to={`/products/${data.id}`}>
-							<img src={data.img} alt={data.title} className="w-fit" />
+							<img
+								src={data.img}
+								alt={data.title}
+								className="w-fit hover:opacity-75"
+							/>
 						</Link>
 					</div>
 				</div>

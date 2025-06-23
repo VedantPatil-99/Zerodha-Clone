@@ -7,7 +7,11 @@ const ImgLeftBlock = ({ data }) => {
 			<div className="holder flex flex-col md:flex-row justify-between sm:items-center gap-x-12">
 				<div className="w-fit mb-2">
 					<Link to={`/products/${data.id}`}>
-						<img src={data.img} alt={data.title} className="w-fit" />
+						<img
+							src={data.img}
+							alt={data.title}
+							className="w-fit hover:opacity-75"
+						/>
 					</Link>
 				</div>
 				<div className="text-zinc-600 md:w-sm">
