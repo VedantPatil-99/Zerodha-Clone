@@ -2,7 +2,7 @@ import HeroSection from "./HeroSection";
 import ImgLeftBlock from "./ImgLeftBlock";
 import ImgRightBlock from "./ImgRightBlock";
 import Universe from "./Universe";
-import productData from "@/productData";
+import productData from "@/productsData";
 
 const ProductsPage = () => {
 	return (
