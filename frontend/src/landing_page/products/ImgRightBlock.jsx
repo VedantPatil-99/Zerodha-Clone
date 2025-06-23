@@ -8,8 +8,8 @@ const ImgRightBlock = () => {
 	return (
 		<>
 			<section className="section-spacing">
-				<div className="holder flex flex-col-reverse md:flex-row justify-between items-center">
-					<div className="text-zinc-600 w-sm">
+				<div className="holder flex flex-col-reverse md:flex-row justify-between sm:items-center">
+					<div className="text-zinc-600 md:w-sm">
 						<h2 className="text-3xl mb-5 font-medium">Console</h2>
 						<p className="text-lg my-4">
 							The central dashboard for your Zerodha account. Gain insights into

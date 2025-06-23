@@ -10,13 +10,13 @@ const ImgLeftBlock = () => {
 	return (
 		<>
 			<section className="section-spacing">
-				<div className="holder flex flex-col md:flex-row justify-between items-center">
-					<div className="w-full mb-2">
+				<div className="holder flex flex-col md:flex-row justify-between sm:items-center gap-x-12">
+					<div className="w-fit mb-2">
 						<Link to={"/products/kite"}>
-							<img src={productsKite} alt="Kite" />
+							<img src={productsKite} alt="Kite" className="w-fit" />
 						</Link>
 					</div>
-					<div className="text-zinc-600 w-lg">
+					<div className="text-zinc-600 md:w-sm">
 						<h2 className="text-3xl mb-5 font-medium">Kite</h2>
 						<p className="text-lg my-4 font-">
 							Our ultra-fast flagship trading platform with streaming market
