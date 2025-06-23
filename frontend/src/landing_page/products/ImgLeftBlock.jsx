@@ -3,7 +3,7 @@ import ArrowLink from "@components/common/ArrowLink";
 
 const ImgLeftBlock = ({ data }) => {
 	return (
-		<section className="section-spacing">
+		<section className="section-spacing-reverse">
 			<div className="holder flex flex-col md:flex-row justify-between sm:items-center gap-x-12">
 				<div className="w-fit mb-2">
 					<Link to={`/products/${data.id}`}>

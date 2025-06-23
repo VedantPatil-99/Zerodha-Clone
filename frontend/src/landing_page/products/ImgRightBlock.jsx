@@ -4,7 +4,7 @@ import ArrowLink from "@components/common/ArrowLink";
 const ImgRightBlock = ({ data }) => {
 	return (
 		<>
-			<section className="section-spacing">
+			<section className="section-spacing-reverse">
 				<div className="holder flex flex-col-reverse md:flex-row justify-between sm:items-center">
 					<div className="text-zinc-600 md:w-sm">
 						<h2 className="text-3xl mb-5 font-medium">{data.title}</h2>
