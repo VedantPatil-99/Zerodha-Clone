@@ -1,4 +1,3 @@
-import React from "react";
 import HeroSection from "./HeroSection";
 import ImgLeftBlock from "./ImgLeftBlock";
 import ImgRightBlock from "./ImgRightBlock";
