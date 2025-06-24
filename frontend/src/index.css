@@ -27,3 +27,7 @@
 .border-top {
 	@apply border-t-[.1px] border-t-gray-200;
 }
+
+.text-md {
+	font-size: 1.03rem;
+}
