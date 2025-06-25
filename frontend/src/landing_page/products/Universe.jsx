@@ -4,6 +4,7 @@ import tijori from "@assets/images/tijori.svg";
 import streakImg from "@assets/images/streakLogo.png";
 import smallcaseImg from "@assets/images/smallcaseLogo.png";
 import dittoImg from "@assets/images/dittoLogo.png";
+import Button from "@components/common/Button";
 
 const Universe = () => {
 	return (
@@ -19,7 +20,7 @@ const Universe = () => {
 					blog.
 				</p>
 			</div>
-			<section className="section-spacing-reverse text-center text-zinc-600 mb-24">
+			<section className="section-spacing-reverse text-center text-zinc-600 lg:mb-24">
 				<h2 className="text-3xl mb-5 font-medium leading-10">
 					The Zerodha Universe
 				</h2>
@@ -33,9 +34,12 @@ const Universe = () => {
 							target="_blank"
 							href="https://www.zerodhafundhouse.com/"
 							className="mt-5 mb-3.5">
-							<img class="streak-logo w-48 mx-auto" src={zerodhaFundHouseImg} />
+							<img
+								className="streak-logo w-48 mx-auto"
+								src={zerodhaFundHouseImg}
+							/>
 							<span className="inline-block"></span>
-							<p class="text-xs font-medium text-zinc-400 leading-4">
+							<p className="text-xs font-medium text-zinc-400 leading-4">
 								Our asset management venture <br />
 								that is creating simple and transparent index <br />
 								funds to help you save for your goals.
@@ -46,9 +50,9 @@ const Universe = () => {
 							target="_blank"
 							href="https://streak.tech"
 							className="mt-5 mb-3.5">
-							<img class="streak-logo w-44 mx-auto" src={streakImg} />
+							<img className="streak-logo w-44 mx-auto" src={streakImg} />
 							<span className="inline-block"></span>
-							<p class="text-xs font-medium text-zinc-400 leading-4">
+							<p className="text-xs font-medium text-zinc-400 leading-4">
 								Systematic trading platform <br />
 								that allows you to create and backtest <br />
 								strategies without coding.
@@ -60,9 +64,9 @@ const Universe = () => {
 							target="_blank"
 							href="https://sensibull.com/"
 							className="mt-5 mb-3.5">
-							<img class="streak-logo w-56 mx-auto" src={sensibullImg} />
+							<img className="streak-logo w-56 mx-auto" src={sensibullImg} />
 							<span className="inline-block"></span>
-							<p class="text-xs font-medium text-zinc-400 leading-4">
+							<p className="text-xs font-medium text-zinc-400 leading-4">
 								Options trading platform that lets you <br />
 								create strategies, analyze positions, and examine <br />
 								data points like open interest, FII/DII, and more.
@@ -72,9 +76,9 @@ const Universe = () => {
 							target="_blank"
 							href="https://smallcase.zerodha.com/"
 							className="mt-5 mb-3.5">
-							<img class="streak-logo w-52" src={smallcaseImg} />
+							<img className="streak-logo w-52" src={smallcaseImg} />
 							<span className="inline-block"></span>
-							<p class="text-xs font-medium text-zinc-400 leading-4">
+							<p className="text-xs font-medium text-zinc-400 leading-4">
 								Thematic investing platform <br />
 								that helps you invest in diversified <br />
 								baskets of stocks on ETFs.
@@ -86,9 +90,9 @@ const Universe = () => {
 							target="_blank"
 							href="https://www.tijorifinance.com/"
 							className="mt-5 mb-3.5">
-							<img class="streak-logo w-36 mx-auto" src={tijori} />
+							<img className="streak-logo w-36 mx-auto" src={tijori} />
 
-							<p class="text-xs font-medium text-zinc-400 leading-4 mt-2.5">
+							<p className="text-xs font-medium text-zinc-400 leading-4 mt-2.5">
 								Investment research platform <br />
 								that offers detailed insights on stocks, <br />
 								sectors, supply chains, and more.
@@ -98,15 +102,18 @@ const Universe = () => {
 							target="_blank"
 							href="https://joinditto.in/"
 							className="mt-5 mb-3.5">
-							<img class="streak-logo w-36 mx-auto" src={dittoImg} />
+							<img className="streak-logo w-36 mx-auto" src={dittoImg} />
 							<span className="inline-block"></span>
-							<p class="text-xs font-medium text-zinc-400 leading-4">
+							<p className="text-xs font-medium text-zinc-400 leading-4">
 								Personalized advice on life <br />
 								and health insurance. No spam <br />
 								and no mis-selling.
 							</p>
 						</a>
 					</div>
+				</div>
+				<div className="section-spacing mt-2">
+					<Button>Sign up for free</Button>
 				</div>
 			</section>
 		</>
