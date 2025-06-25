@@ -27,7 +27,7 @@ const Universe = () => {
 					Extend your trading and investment experience even further with our
 					partner platforms
 				</p>
-				<div className="flex flex-col md:flex-row justify-evenly items-center mt-10">
+				<div className="flex flex-col md:flex-row justify-evenly items-center mt-10 holder">
 					<div className="flex justify-between flex-col md:gap-12">
 						<a
 							target="_blank"
@@ -60,9 +60,9 @@ const Universe = () => {
 							className="mt-5 mb-3.5">
 							<img class="streak-logo w-[15rem] mb-4" src={sensibullImg} />
 							<p class="text-xs font-medium text-zinc-400 leading-4 mt-2.5">
-								Systematic trading platform <br />
-								that allows you to create and backtest <br />
-								strategies without coding.
+								Options trading platform that lets you <br />
+								create strategies, analyze positions, and examine <br />
+								data points like open interest, FII/DII, and more.
 							</p>
 						</a>
 						<a
@@ -95,9 +95,9 @@ const Universe = () => {
 							className="mt-5 mb-3.5">
 							<img class="streak-logo w-48 mb-4" src={dittoImg} />
 							<p class="text-xs font-medium text-zinc-400 leading-4 mt-2.5">
-								Systematic trading platform <br />
-								that allows you to create and backtest <br />
-								strategies without coding.
+								Personalized advice on life <br />
+								and health insurance. No spam <br />
+								and no mis-selling.
 							</p>
 						</a>
 					</div>
