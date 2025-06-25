@@ -28,16 +28,17 @@ const Universe = () => {
 					partner platforms
 				</p>
 				<div className="flex flex-col md:flex-row justify-evenly items-center mt-10 holder">
-					<div className="flex justify-between flex-col md:gap-12">
+					<div className="flex justify-between flex-col md:gap-12 items-center">
 						<a
 							target="_blank"
 							href="https://www.zerodhafundhouse.com/"
 							className="mt-5 mb-3.5">
-							<img class="streak-logo w-48" src={zerodhaFundHouseImg} />
-							<p class="text-xs font-medium text-zinc-400 leading-4 mt-2.5">
-								Options trading platform that lets you <br />
-								create strategies, analyze positions, and examine <br />
-								data points like open interest, FII/DII, and more.
+							<img class="streak-logo w-48 mx-auto" src={zerodhaFundHouseImg} />
+							<span className="inline-block"></span>
+							<p class="text-xs font-medium text-zinc-400 leading-4">
+								Our asset management venture <br />
+								that is creating simple and transparent index <br />
+								funds to help you save for your goals.
 							</p>
 						</a>
 
@@ -45,21 +46,23 @@ const Universe = () => {
 							target="_blank"
 							href="https://streak.tech"
 							className="mt-5 mb-3.5">
-							<img class="streak-logo w-52 mb-4" src={streakImg} />
-							<p class="text-xs font-medium text-zinc-400 leading-4 mt-2.5">
-								Investment research platform <br />
-								that offers detailed insights on stocks, <br />
-								sectors, supply chains, and more.
+							<img class="streak-logo w-44 mx-auto" src={streakImg} />
+							<span className="inline-block"></span>
+							<p class="text-xs font-medium text-zinc-400 leading-4">
+								Systematic trading platform <br />
+								that allows you to create and backtest <br />
+								strategies without coding.
 							</p>
 						</a>
 					</div>
-					<div className="flex justify-between flex-col md:gap-12">
+					<div className="flex justify-between items-center flex-col md:gap-12">
 						<a
 							target="_blank"
 							href="https://sensibull.com/"
 							className="mt-5 mb-3.5">
-							<img class="streak-logo w-[15rem] mb-4" src={sensibullImg} />
-							<p class="text-xs font-medium text-zinc-400 leading-4 mt-2.5">
+							<img class="streak-logo w-56 mx-auto" src={sensibullImg} />
+							<span className="inline-block"></span>
+							<p class="text-xs font-medium text-zinc-400 leading-4">
 								Options trading platform that lets you <br />
 								create strategies, analyze positions, and examine <br />
 								data points like open interest, FII/DII, and more.
@@ -69,32 +72,35 @@ const Universe = () => {
 							target="_blank"
 							href="https://smallcase.zerodha.com/"
 							className="mt-5 mb-3.5">
-							<img class="streak-logo w-[15rem]  mb-4" src={smallcaseImg} />
-							<p class="text-xs font-medium text-zinc-400 leading-4 mt-2.5">
+							<img class="streak-logo w-52" src={smallcaseImg} />
+							<span className="inline-block"></span>
+							<p class="text-xs font-medium text-zinc-400 leading-4">
 								Thematic investing platform <br />
 								that helps you invest in diversified <br />
 								baskets of stocks on ETFs.
 							</p>
 						</a>
 					</div>
-					<div className="flex justify-between flex-col md:gap-12">
+					<div className="flex justify-between items-center flex-col md:gap-12">
 						<a
 							target="_blank"
 							href="https://www.tijorifinance.com/"
 							className="mt-5 mb-3.5">
-							<img class="streak-logo mb-4" src={tijori} />
+							<img class="streak-logo w-36 mx-auto" src={tijori} />
+
 							<p class="text-xs font-medium text-zinc-400 leading-4 mt-2.5">
-								Personalized advice on life <br />
-								and health insurance. No spam <br />
-								and no mis-selling.
+								Investment research platform <br />
+								that offers detailed insights on stocks, <br />
+								sectors, supply chains, and more.
 							</p>
 						</a>
 						<a
 							target="_blank"
 							href="https://joinditto.in/"
 							className="mt-5 mb-3.5">
-							<img class="streak-logo w-48 mb-4" src={dittoImg} />
-							<p class="text-xs font-medium text-zinc-400 leading-4 mt-2.5">
+							<img class="streak-logo w-36 mx-auto" src={dittoImg} />
+							<span className="inline-block"></span>
+							<p class="text-xs font-medium text-zinc-400 leading-4">
 								Personalized advice on life <br />
 								and health insurance. No spam <br />
 								and no mis-selling.
