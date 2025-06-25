@@ -1,45 +1,46 @@
 import mainLogo from "@assets/images/logo.svg";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
 	return (
 		<>
-			<nav className="border-b-[.1px] border-b-gray-200 h-16 md:h-16 sticky top-0 z-10 bg-white md:p-0 px-4">
+			<nav className="border-bottom h-16 md:h-16 sticky top-0 z-10 bg-white md:p-0 px-4">
 				<div className="holder md:px-5 flex justify-between items-center h-full">
 					<div className="logo my-4">
-						<a href="#">
+						<Link to="/">
 							<img
 								src={mainLogo}
 								alt="Zerodha Logo"
 								className="w-32 px-2 sm:p-0"
 							/>
-						</a>
+						</Link>
 					</div>
 					<div className="nav-links">
 						<ul className="hidden md:flex md:flex-row gap-10 text-zinc-500 opacity-95">
 							<li>
-								<a href="#" className="hover:text-blue-500 ">
+								<Link to="/signup" className="hover:text-blue-500 ">
 									Signup
-								</a>
+								</Link>
 							</li>
 							<li>
-								<a href="#" className="hover:text-blue-500 ">
+								<Link to="/about" className="hover:text-blue-500 ">
 									About
-								</a>
+								</Link>
 							</li>
 							<li>
-								<a href="#" className="hover:text-blue-500 ">
+								<Link to="/products" className="hover:text-blue-500 ">
 									Products
-								</a>
+								</Link>
 							</li>
 							<li>
-								<a href="#" className="hover:text-blue-500 ">
+								<Link to="/pricing" className="hover:text-blue-500 ">
 									Pricing
-								</a>
+								</Link>
 							</li>
 							<li>
-								<a href="#" className="hover:text-blue-500 ">
+								<Link to="/support" className="hover:text-blue-500 ">
 									Support
-								</a>
+								</Link>
 							</li>
 							<li>
 								<a href="#" className="text-zinc-800">

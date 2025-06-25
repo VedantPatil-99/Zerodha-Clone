@@ -9,9 +9,25 @@
 }
 
 .section-spacing {
-	@apply px-5 py-7 md:pb-32 md:px-5;
+	@apply px-5 py-7 md:pb-32 lg:pb-0;
+}
+
+.section-spacing-reverse {
+	@apply px-5 py-7 md:pt-20 md:py-0;
 }
 
 .holder {
 	@apply xl:mx-24;
+}
+
+.border-bottom {
+	@apply border-b-[.1px] border-b-gray-200;
+}
+
+.border-top {
+	@apply border-t-[.1px] border-t-gray-200;
+}
+
+.text-md {
+	font-size: 1.03rem;
 }

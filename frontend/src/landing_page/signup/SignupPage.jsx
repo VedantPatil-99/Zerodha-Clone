@@ -5,7 +5,7 @@ import Steps from "./Steps";
 import Benefits from "./Benefits";
 import AccountTypes from "./AccountTypes";
 import FAQs from "./FAQs";
-import OpenAccount from "./../OpenAccount";
+import OpenAccount from "@components/common/OpenAccount";
 
 const SignupPage = () => {
 	return (

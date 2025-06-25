@@ -9,15 +9,11 @@ import Stats from "./Stats";
 const HomePage = () => {
 	return (
 		<>
-			<Navbar />
-
 			<HeroSection />
 			<Stats />
 			<Pricing />
 			<Education />
 			<OpenAccount />
-
-			<Footer />
 		</>
 	);
 };
