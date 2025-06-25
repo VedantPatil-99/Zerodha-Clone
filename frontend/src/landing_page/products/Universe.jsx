@@ -31,9 +31,9 @@ const Universe = () => {
 					<div className="flex justify-between flex-col md:gap-12">
 						<a
 							target="_blank"
-							href="https://streak.tech"
+							href="https://www.zerodhafundhouse.com/"
 							className="mt-5 mb-3.5">
-							<img class="streak-logo w-48 mb-4" src={zerodhaFundHouseImg} />
+							<img class="streak-logo w-48" src={zerodhaFundHouseImg} />
 							<p class="text-xs font-medium text-zinc-400 leading-4 mt-2.5">
 								Options trading platform that lets you <br />
 								create strategies, analyze positions, and examine <br />
@@ -45,7 +45,7 @@ const Universe = () => {
 							target="_blank"
 							href="https://streak.tech"
 							className="mt-5 mb-3.5">
-							<img class="streak-logo w-[15rem]  mb-4" src={streakImg} />
+							<img class="streak-logo w-52 mb-4" src={streakImg} />
 							<p class="text-xs font-medium text-zinc-400 leading-4 mt-2.5">
 								Investment research platform <br />
 								that offers detailed insights on stocks, <br />
@@ -56,7 +56,7 @@ const Universe = () => {
 					<div className="flex justify-between flex-col md:gap-12">
 						<a
 							target="_blank"
-							href="https://streak.tech"
+							href="https://sensibull.com/"
 							className="mt-5 mb-3.5">
 							<img class="streak-logo w-[15rem] mb-4" src={sensibullImg} />
 							<p class="text-xs font-medium text-zinc-400 leading-4 mt-2.5">
@@ -67,7 +67,7 @@ const Universe = () => {
 						</a>
 						<a
 							target="_blank"
-							href="https://streak.tech"
+							href="https://smallcase.zerodha.com/"
 							className="mt-5 mb-3.5">
 							<img class="streak-logo w-[15rem]  mb-4" src={smallcaseImg} />
 							<p class="text-xs font-medium text-zinc-400 leading-4 mt-2.5">
@@ -80,7 +80,7 @@ const Universe = () => {
 					<div className="flex justify-between flex-col md:gap-12">
 						<a
 							target="_blank"
-							href="https://streak.tech"
+							href="https://www.tijorifinance.com/"
 							className="mt-5 mb-3.5">
 							<img class="streak-logo mb-4" src={tijori} />
 							<p class="text-xs font-medium text-zinc-400 leading-4 mt-2.5">
@@ -91,7 +91,7 @@ const Universe = () => {
 						</a>
 						<a
 							target="_blank"
-							href="https://streak.tech"
+							href="https://joinditto.in/"
 							className="mt-5 mb-3.5">
 							<img class="streak-logo w-48 mb-4" src={dittoImg} />
 							<p class="text-xs font-medium text-zinc-400 leading-4 mt-2.5">
