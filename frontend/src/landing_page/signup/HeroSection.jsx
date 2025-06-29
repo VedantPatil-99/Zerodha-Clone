@@ -16,11 +16,11 @@ const HeroSection = () => {
 						<span class="client-count">1.6+ crore</span> investors and traders
 					</p>
 				</div>
-				<div className="flex flex-col md:flex-row text-zinc-700 md:items-center">
+				<div className="flex flex-col md:flex-row text-zinc-700 md:items-center md:justify-evenly">
 					<img
 						src={account_open}
 						alt="Open Account"
-						className="pb-7 max-w-xs mx-auto"
+						className="pb-7 w-sm lg:w-lg mx-auto md:mx-0"
 					/>
 					<h1 className="block md:hidden font-medium text-2xl mb-1">
 						Open a free demat & trading account online
