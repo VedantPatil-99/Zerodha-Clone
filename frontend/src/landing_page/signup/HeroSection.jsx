@@ -16,17 +16,22 @@ const HeroSection = () => {
 						<span class="client-count">1.6+ crore</span> investors and traders
 					</p>
 				</div>
-				<div className="flex flex-col md:flex-row text-zinc-700">
+				<div className="flex flex-col md:flex-row text-zinc-700 md:items-center">
 					<img
 						src={account_open}
 						alt="Open Account"
-						className="pb-7 max-w-md mx-auto"
+						className="pb-7 max-w-xs mx-auto"
 					/>
 					<h1 className="block md:hidden font-medium text-2xl mb-1">
 						Open a free demat & trading account online
 					</h1>
 					<div>
-						<p className="text-lg font-medium pt-2.5">Signup Now</p>
+						<p className="text-lg md:text-3xl font-medium pt-2.5 mb-2">
+							Signup Now
+						</p>
+						<p className="text-zinc-400 text-lg hidden md:block">
+							Or track your existing application
+						</p>
 						<form action="#" method="post" className="mt-5">
 							<div className="grid grid-cols-12 mb-7 border border-zinc-400 rounded-xs focus-within:border-zinc-500">
 								<div className="p-3 border-e border-e-zinc-300 rounded-xs w-full col-span-3 flex justify-between items-center">
@@ -48,7 +53,9 @@ const HeroSection = () => {
 								/>
 							</div>
 							<div className="mt-7">
-								<Button className="w-full mb-5">Get OTP</Button>
+								<Button className="w-full mb-5 md:w-2/3" type={"submit"}>
+									Get OTP
+								</Button>
 							</div>
 						</form>
 						<p className="my-3 text-xs font-medium text-zinc-400">
