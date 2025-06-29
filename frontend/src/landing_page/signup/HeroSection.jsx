@@ -16,7 +16,7 @@ const HeroSection = () => {
 						<span class="client-count">1.6+ crore</span> investors and traders
 					</p>
 				</div>
-				<div className="flex flex-col md:flex-row text-zinc-700 md:items-center md:justify-evenly">
+				<div className="flex flex-col md:flex-row text-zinc-700 md:items-center md:justify-evenly lg:p-6">
 					<img
 						src={account_open}
 						alt="Open Account"
