@@ -14,7 +14,7 @@ const HeroSection = () => {
 					</h1>
 					<p className="text-lg font-medium pt-2.5">Signup Now</p>
 					<form action="#" method="post" className="mt-5">
-						<div className="grid grid-cols-12 mb-7 border border-zinc-300 rounded-xs focus-within:border-zinc-400 ">
+						<div className="grid grid-cols-12 mb-7 border border-zinc-400 rounded-xs focus-within:border-zinc-500">
 							<div className="p-3 border-e border-e-zinc-300 rounded-xs w-full col-span-3 flex justify-between items-center">
 								<img
 									src={india_flag}
