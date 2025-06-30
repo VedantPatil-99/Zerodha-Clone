@@ -16,17 +16,18 @@ const HeroSection = () => {
 						<span class="client-count">1.6+ crore</span> investors and traders
 					</p>
 				</div>
-				<div className="flex flex-col md:flex-row text-zinc-700 md:items-center md:justify-evenly lg:p-6">
+				<div className="holder flex flex-col md:flex-row text-zinc-700 md:items-center md:justify-evenly lg:p-6">
 					<img
 						src={account_open}
 						alt="Open Account"
 						className="pb-7 w-sm lg:w-lg mx-auto md:mx-0"
 					/>
-					<h1 className="block md:hidden font-medium text-2xl mb-1">
-						Open a free demat & trading account online
-					</h1>
-					<div>
-						<p className="text-lg md:text-3xl font-medium pt-2.5 mb-2">
+
+					<div className="">
+						<h1 className="block md:hidden font-medium text-2xl mb-1">
+							Open a free demat & trading account online
+						</h1>
+						<p className="text-lg md:text-4xl font-medium pt-2.5 mb-2">
 							Signup Now
 						</p>
 						<p className="text-zinc-400 text-lg hidden md:block">
@@ -34,7 +35,7 @@ const HeroSection = () => {
 						</p>
 						<form action="#" method="post" className="mt-5">
 							<div className="grid grid-cols-12 mb-7 border border-zinc-400 rounded-xs focus-within:border-zinc-500">
-								<div className="p-3 border-e border-e-zinc-300 rounded-xs w-full col-span-3 flex justify-between items-center">
+								<div className="p-3 border-e border-e-zinc-300 rounded-xs w-full col-span-3 flex justify-between items-center md:h-14">
 									<img
 										src={india_flag}
 										alt="India-flag"
