@@ -27,7 +27,7 @@ const HeroSection = () => {
 						<h1 className="block md:hidden font-medium text-2xl mb-1">
 							Open a free demat & trading account online
 						</h1>
-						<p className="text-lg md:text-4xl font-medium pt-2.5 mb-2">
+						<p className="text-lg md:text-4xl font-medium pt-2.5 mb-2.5">
 							Signup Now
 						</p>
 						<p className="text-zinc-400 text-lg hidden md:block">
