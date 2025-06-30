@@ -23,7 +23,7 @@ const HeroSection = () => {
 						className="pb-7 w-sm lg:w-lg mx-auto md:mx-0"
 					/>
 
-					<div className="">
+					<div>
 						<h1 className="block md:hidden font-medium text-2xl mb-1">
 							Open a free demat & trading account online
 						</h1>
