@@ -3,11 +3,11 @@ import InvestOpts from "./InvestOpts";
 const Options = () => {
 	return (
 		<>
-			<section className="section-spacing-reverse text-xl font-medium text-zinc-700 mt-10">
-				<h2 className="mb-12 text-center">
+			<section className="section-spacing-reverse text-xl md:text-3xl font-medium text-zinc-700 md:mt-0 mt-10 lg:mx-32 xl:mx-52">
+				<h2 className="mb-12 text-center lg:text-4xl">
 					Investment options with Zerodha demat account
 				</h2>
-				<div className="grid md:grid-cols-2 p-4 gap-10 place-content-evenly">
+				<div className="grid md:grid-cols-2 p-4 gap-10 lg:gap-x-36 lg:gap-y-20 place-items-start lg:mt-20">
 					<InvestOpts />
 				</div>
 			</section>

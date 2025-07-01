@@ -6,16 +6,16 @@ const InvestOpts = () => {
 		<>
 			{signupPageData.investOptions.map((opt, id) => (
 				<div
-					className="investment-options flex justify-between gap-6 items-center"
+					className="investment-options flex justify-between md:justify-normal items-center gap-6 md:h-44 lg:h-auto"
 					key={id}>
 					<img
 						src={opt.imgPath}
 						alt={`invest in ${opt.name}`}
-						className="md:w-auto md:h-auto w-16 sm:h-20"
+						className="md:w-24 md:h-full w-16 sm:h-20"
 					/>
 					<div>
-						<h3>{opt.name}</h3>
-						<p className="text-[15px] font-normal text-zinc-500 mt-1.5 leading-6">
+						<h3 className="lg:text-nowrap">{opt.name}</h3>
+						<p className="text-[15px] md:text-[16px] font-normal text-zinc-500 mt-1.5 leading-7">
 							{opt.description}
 						</p>
 					</div>
