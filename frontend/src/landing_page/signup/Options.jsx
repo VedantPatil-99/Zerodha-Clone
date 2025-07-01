@@ -1,4 +1,5 @@
 import InvestOpts from "./InvestOpts";
+import Button from "@components/common/Button";
 
 const Options = () => {
 	return (
@@ -9,6 +10,9 @@ const Options = () => {
 				</h2>
 				<div className="grid md:grid-cols-2 p-4 gap-10 lg:gap-x-36 lg:gap-y-20 place-items-start lg:mt-20">
 					<InvestOpts />
+				</div>
+				<div className="text-center my-4">
+					<Button className="px-10 w-fit mt-8">Explore Investments</Button>
 				</div>
 			</section>
 		</>
