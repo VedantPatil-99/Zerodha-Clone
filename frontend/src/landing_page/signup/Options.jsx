@@ -1,5 +1,6 @@
 import InvestOpts from "./InvestOpts";
 import Button from "@components/common/Button";
+import { Link } from "react-router-dom";
 
 const Options = () => {
 	return (
@@ -12,7 +13,9 @@ const Options = () => {
 					<InvestOpts />
 				</div>
 				<div className="text-center my-4">
-					<Button className="px-10 w-fit mt-8">Explore Investments</Button>
+					<Button className="px-10 w-fit mt-8">
+						<Link to={"/investments"}>Explore Investments</Link>{" "}
+					</Button>
 				</div>
 			</section>
 		</>
