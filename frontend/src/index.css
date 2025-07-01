@@ -9,7 +9,7 @@
 }
 
 .section-spacing {
-	@apply px-5 py-7 md:pb-32 lg:pb-0;
+	@apply px-5 py-7 md:pb-32 md:px-5;
 }
 
 .section-spacing-reverse {

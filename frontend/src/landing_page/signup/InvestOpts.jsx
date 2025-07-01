@@ -11,7 +11,7 @@ const InvestOpts = () => {
 					<img
 						src={opt.imgPath}
 						alt={`invest in ${opt.name}`}
-						className="w-16 h-20"
+						className="md:w-auto md:h-auto w-16 sm:h-20"
 					/>
 					<div>
 						<h3>{opt.name}</h3>
