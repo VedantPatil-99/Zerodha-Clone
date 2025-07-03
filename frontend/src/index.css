@@ -16,6 +16,10 @@
 	@apply px-5 py-7 md:pt-20 md:py-0;
 }
 
+.signup-spacing {
+	@apply px-10 pt-12 pb-[70px];
+}
+
 .holder {
 	@apply xl:mx-24;
 }
