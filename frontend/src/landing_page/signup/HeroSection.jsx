@@ -6,17 +6,16 @@ import { Link } from "react-router-dom";
 const HeroSection = () => {
 	return (
 		<>
-			<section className="pt-5 px-10">
-				<div className="hidden md:block text-center section-spacing-reverse mb-12">
-					<h1 className="text-[44px] font-medium text-zinc-700 mb-5 leading-14">
-						Open a free demat and trading account online
-					</h1>
-					<p className="acop-subheading text-center text-zinc-500 text-xl mt-2.5 mb-4">
-						Start investing brokerage free and join a community of{" "}
-						<span className="client-count">1.6+ crore</span> investors and
-						traders
-					</p>
-				</div>
+			<div className="hidden md:block text-center section-spacing-reverse mb-12">
+				<h1 className="text-[44px] font-medium text-zinc-700 mb-5 leading-14">
+					Open a free demat and trading account online
+				</h1>
+				<p className="acop-subheading text-center text-zinc-500 text-xl mt-2.5 mb-4">
+					Start investing brokerage free and join a community of{" "}
+					<span className="client-count">1.6+ crore</span> investors and traders
+				</p>
+			</div>
+			<section className="signup-spacing">
 				<div className="holder flex flex-col md:flex-row text-zinc-700 md:items-center md:justify-evenly lg:p-6">
 					<img
 						src={account_open}
