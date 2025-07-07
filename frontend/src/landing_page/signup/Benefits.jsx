@@ -1,4 +1,5 @@
 import acop_benefits from "@assets/images/acop-benefits.svg";
+import BenefitFrag from "./BenefitFrag";
 
 const Benefits = () => {
 	return (
@@ -13,6 +14,9 @@ const Benefits = () => {
 					<h2 className="mb-12 text-xl font-medium text-zinc-600 leading-8">
 						Benefits of opening a Zerodha demat account
 					</h2>
+				</div>
+				<div className="flex flex-col justify-between gap-6">
+					<BenefitFrag />
 				</div>
 			</section>
 		</>
