@@ -52,7 +52,48 @@ const zerodhaBenefits = [
 	},
 ];
 
+import acop_individual from "@assets/images/acop-individual.svg";
+import acop_huf from "@assets/images/acop-huf.svg";
+import acop_nri from "@assets/images/acop-nri.svg";
+import acop_minor from "@assets/images/acop-minor.svg";
+import acop_corporate from "@assets/images/acop-corporate.svg";
+
+const accTypes = [
+	{
+		title: "Individual Account",
+		description: "Invest in equity, mutual funds and derivatives",
+		link: "https://signup.zerodha.com/",
+		img: acop_individual,
+	},
+	{
+		title: "HUF Account",
+		description: "Make tax-efficient investments for your family",
+		link: "https://support.zerodha.com/category/account-opening/company-partnership-and-huf-account-opening/huf",
+		img: acop_huf,
+	},
+	{
+		title: "NRI Account",
+		description: "Invest in equity, mutual funds, debentures, and more",
+		link: "https://zerodha.com/open-account/nri",
+		img: acop_nri,
+	},
+	{
+		title: "Minor Account",
+		description:
+			"Teach your little ones about money & invest for their future with them",
+		link: "https://signup.zerodha.com/minor/",
+		img: acop_minor,
+	},
+	{
+		title: "Corporate / LLP/ Partnership",
+		description: "Manage your business surplus and investments easily",
+		link: "https://support.zerodha.com/category/account-opening/company-partnership-and-huf-account-opening",
+		img: acop_corporate,
+	},
+];
+
 export default {
 	investOptions,
 	zerodhaBenefits,
+	accTypes,
 };
