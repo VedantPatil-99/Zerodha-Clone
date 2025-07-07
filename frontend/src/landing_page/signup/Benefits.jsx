@@ -1,7 +1,22 @@
-import React from "react";
+import acop_benefits from "@assets/images/acop-benefits.svg";
 
 const Benefits = () => {
-	return <div>Benefits</div>;
+	return (
+		<>
+			<section className="signup-spacing">
+				<div className="flex-flex-col">
+					<img
+						src={acop_benefits}
+						alt="benefits of Zerodha"
+						className="mx-auto my-5 w-full"
+					/>
+					<h2 className="mb-12 text-xl font-medium text-zinc-600 leading-8">
+						Benefits of opening a Zerodha demat account
+					</h2>
+				</div>
+			</section>
+		</>
+	);
 };
 
 export default Benefits;
