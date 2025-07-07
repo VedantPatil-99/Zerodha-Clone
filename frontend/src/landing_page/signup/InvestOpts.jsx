@@ -1,5 +1,4 @@
-import React from "react";
-import signupPageData from "../../signupPageData";
+import signupPageData from "@/signupPageData";
 
 const InvestOpts = () => {
 	return (
