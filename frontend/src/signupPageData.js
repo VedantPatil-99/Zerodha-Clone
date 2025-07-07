@@ -27,6 +27,32 @@ const investOptions = [
 	},
 ];
 
+const zerodhaBenefits = [
+	{
+		bfName: "Unbeatable pricing",
+		bfDesc:
+			"Zero charges for equity & mutual fund investments. Flat ₹20 fees for intraday and F&O trades.",
+	},
+
+	{
+		bfName: "Best investing experience",
+		bfDesc:
+			"Simple and intuitive trading platform with an easy-to-understand user interface.",
+	},
+	{
+		bfName: "No spam or gimmicks",
+		bfDesc:
+			'Committed to transparency — no gimmicks, spam, "gamification", or intrusive push notifications.',
+	},
+
+	{
+		bfName: "The Zerodha universe",
+		bfDesc:
+			"More than just an app — gain free access to the entire ecosystem of our partner products.",
+	},
+];
+
 export default {
 	investOptions,
+	zerodhaBenefits,
 };
