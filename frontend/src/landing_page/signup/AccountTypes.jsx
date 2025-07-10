@@ -9,7 +9,7 @@ const AccountTypes = () => {
 						Explore different account types
 					</h2>
 				</div>
-				<div className="flex flex-col justify-between">
+				<div className="holder">
 					<AccTypeCard />
 				</div>
 			</section>
