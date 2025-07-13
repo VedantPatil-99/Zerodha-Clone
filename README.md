@@ -1,5 +1,10 @@
 # Completed Frontend
 
+## SignUp page
+![localhost_5173_about](https://github.com/user-attachments/assets/515cfd77-5cee-426b-be14-ddbe37288f3d)
+
+
+
 ## About page
 
 ![localhost_5173_about](https://github.com/user-attachments/assets/06bca728-9141-4b89-a6eb-4aa3c98de8d8)
