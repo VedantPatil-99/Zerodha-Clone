@@ -4,7 +4,7 @@ import Options from "./Options";
 import Steps from "./Steps";
 import Benefits from "./Benefits";
 import AccountTypes from "./AccountTypes";
-import FAQs from "./FAQs";
+import FAQSection from "./FAQSection";
 import OpenAccount from "@components/common/OpenAccount";
 
 const SignupPage = () => {
@@ -15,7 +15,7 @@ const SignupPage = () => {
 			<Steps />
 			<Benefits />
 			<AccountTypes />
-			<FAQs />
+			<FAQSection />
 			<OpenAccount />
 		</>
 	);
