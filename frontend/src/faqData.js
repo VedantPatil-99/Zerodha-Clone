@@ -51,8 +51,12 @@ const faqData = [
 					"For Basic Services Demat Account: Zero charges if the holding value is less than ₹4,00,000.\nFor non-Basic Services Demat Account: ₹300 per year + GST.",
 			},
 			{
+				type: "paragraph",
+				content: "To learn more about BSDA,",
+			},
+			{
 				type: "link",
-				content: "Click here to learn more about BSDA",
+				content: "Click here",
 				href: "https://support.zerodha.com/category/account-opening/online-account-opening/online-account-opening-process/articles/how-to-open-a-basic-service-demat-account-at-zerodha",
 			},
 		],

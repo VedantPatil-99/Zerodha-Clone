@@ -42,7 +42,7 @@ const FAQItem = ({ question, answer, isOpen, onToggle }) => {
 										href={block.href}
 										target="_blank"
 										rel="noreferrer"
-										className="text-blue-600 underline">
+										className="text-blue-600">
 										{block.content}
 									</a>
 								);
