@@ -35,3 +35,7 @@
 .text-md {
 	font-size: 1.03rem;
 }
+
+.quick-links {
+	@apply underline decoration-1 underline-offset-8 mb-4 text-lg;
+}

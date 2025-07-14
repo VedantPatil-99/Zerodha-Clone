@@ -27,6 +27,26 @@ const HeroSection = () => {
 							/>
 							<i className="fa-solid fa-magnifying-glass absolute right-4 top-1/2 -translate-y-1/2 text-zinc-600"></i>
 						</form>
+						<div className="super-links">
+							<p className="quick-links">
+								<a href="https://zrd.sh/signup">Track account opening</a>
+							</p>
+							<p className="quick-links">
+								<a href="https://zrd.sh/segment-activation">
+									Track segment activation
+								</a>
+							</p>
+							<p className="quick-links">
+								<a href="https://zrd.sh/latest-leverage">Intraday margins</a>
+							</p>
+							<p className="quick-links">
+								<a
+									className="kite-manual-link"
+									href="https://zrd.sh/kite-manual">
+									Kite user manual
+								</a>
+							</p>
+						</div>
 					</div>
 					<div></div>
 				</div>
