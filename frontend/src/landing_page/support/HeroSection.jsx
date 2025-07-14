@@ -10,6 +10,26 @@ const HeroSection = () => {
 						Track tickets
 					</a>
 				</div>
+				<div className="flex flex-col md:flex-row justify-between">
+					<div className="flex flex-col">
+						<form
+							action=""
+							method="get"
+							className="relative w-full max-w-xl my-5">
+							<input
+								type="text"
+								name="support-search"
+								id="support-search"
+								placeholder="Eg: how do I activate F&O, why is my order getting rejected ..."
+								autoComplete="off"
+								autoFocus
+								className="w-full h-10 pl-6 rounded-sm bg-slate-200 text-zinc-800 placeholder:w-5/6 placeholder:text-zinc-600 focus:outline-none"
+							/>
+							<i className="fa-solid fa-magnifying-glass absolute right-4 top-1/2 -translate-y-1/2 text-zinc-600"></i>
+						</form>
+					</div>
+					<div></div>
+				</div>
 			</section>
 		</>
 	);
