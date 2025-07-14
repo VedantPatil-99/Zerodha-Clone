@@ -2,7 +2,7 @@ const HeroSection = () => {
 	return (
 		<>
 			<section className="section-spacing h-screen md:h-96 bg-sky-600 text-white">
-				<div className="flex justify-between">
+				<div className="flex justify-between holder">
 					<a href="#" className="text-lg md:text-xl font-medium">
 						Support Portal
 					</a>
@@ -10,7 +10,7 @@ const HeroSection = () => {
 						Track tickets
 					</a>
 				</div>
-				<div className="flex flex-col md:flex-row justify-between">
+				<div className="flex flex-col md:flex-row  holder">
 					<div className="flex flex-col">
 						<form
 							action=""
@@ -27,8 +27,8 @@ const HeroSection = () => {
 							/>
 							<i className="fa-solid fa-magnifying-glass absolute right-4 top-1/2 -translate-y-1/2 text-zinc-600"></i>
 						</form>
-						<div className="super-links">
-							<p className="quick-links">
+						<div className="flex flex-col md:flex-row  md:gap-x-5 flex-wrap">
+							<p className="quick-links w-fit ju">
 								<a href="https://zrd.sh/signup">Track account opening</a>
 							</p>
 							<p className="quick-links">
@@ -48,7 +48,29 @@ const HeroSection = () => {
 							</p>
 						</div>
 					</div>
-					<div></div>
+					<div className="my-4">
+						<h3 className="text-xl font-medium mb-4">Featured</h3>
+						<ol className="list-decimal list-inside ps-5 mb-4">
+							<li>
+								<a
+									href="https://zerodha.com/marketintel/bulletin/419005/quarterly-settlement-of-funds-july-2025"
+									target="_blank"
+									className="underline">
+									Quarterly Settlement of Funds - July 2025
+								</a>
+							</li>
+							&nbsp;
+							<li>
+								<a
+									href="https://zerodha.com/marketintel/bulletin/418412/exclusion-of-fo-contracts-on-8-securities-from-august-29-2025"
+									target="_blank"
+									className="underline">
+									Exclusion of F&amp;O contracts on 8 securities from August 29,
+									2025
+								</a>
+							</li>
+						</ol>
+					</div>
 				</div>
 			</section>
 		</>
