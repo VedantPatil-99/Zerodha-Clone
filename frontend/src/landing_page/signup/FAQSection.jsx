@@ -9,7 +9,7 @@ const FAQSection = () => {
 		setOpenIndex((prevIndex) => (prevIndex === index ? null : index));
 	};
 	return (
-		<section className="signup-spacing holder">
+		<section className="signup-spacing holder ">
 			<h2 className="text-xl md:text-3xl mb-12 text-zinc-700 font-medium">
 				FAQs
 			</h2>
