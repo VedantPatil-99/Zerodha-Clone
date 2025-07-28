@@ -1,4 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
+
 @import "tailwindcss";
+
+@theme {
+	--font-sans: "Inter", sans-serif;
+}
 
 .header-1 {
 	@apply text-3xl font-semibold text-zinc-700 mb-5;
@@ -6,6 +12,12 @@
 
 .header-2 {
 	@apply text-3xl font-semibold text-zinc-700 mb-10;
+}
+
+section,
+nav,
+footer {
+	@apply max-w-7xl mx-auto;
 }
 
 .section-spacing {
@@ -21,7 +33,7 @@
 }
 
 .holder {
-	@apply xl:mx-24;
+	@apply xl:mx-24 lg:mx-14 md:mx-10 sm:mx-5 mx-2;
 }
 
 .border-bottom {
