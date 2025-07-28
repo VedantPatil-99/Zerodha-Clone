@@ -2,7 +2,7 @@ import signupPageData from "@/signupPageData";
 
 const AccTypeCard = () => {
 	return (
-		<div className="flex flex-wrap gap-x-10 gap-y-16 justify-items-center md:ms-">
+		<div className="flex flex-wrap gap-x-10 gap-y-16 justify-items-center md:ms-4">
 			{signupPageData.accTypes.map((acc, id) => (
 				<a
 					key={id}
