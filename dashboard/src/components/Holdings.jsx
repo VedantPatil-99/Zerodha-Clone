@@ -36,7 +36,7 @@ const Holdings = () => {
 						return (
 							<tr key={idx}>
 								<td>{stock.name}</td>
-								<td>{stock.name}</td>
+								<td>{stock.qty}</td>
 								<td>{stock.avg.toFixed(2)}</td>
 								<td>{stock.price.toFixed(2)}</td>
 								<td>{curValue.toFixed(2)}</td>
