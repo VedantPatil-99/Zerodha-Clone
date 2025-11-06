@@ -1,7 +1,12 @@
-import React, { useState } from "react";
-import { watchlist } from "./../data/demoData";
-import KeyboardArrowUpIcon from "@mui/icons-material/KeyboardArrowUp";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
+import KeyboardArrowUpIcon from "@mui/icons-material/KeyboardArrowUp";
+import Tooltip from "@mui/material/Tooltip";
+import { useState } from "react";
+import { watchlist } from "./../data/demoData";
+// import Button from "@mui/material/Button";
+import InsightsIcon from "@mui/icons-material/Insights";
+import { Grow } from "@mui/material";
+import MoreHorizOutlinedIcon from "@mui/icons-material/MoreHorizOutlined";
 
 const WatchList = () => {
 	return (
@@ -68,6 +73,50 @@ const WatchListItem = ({ stock }) => {
 					<p className="price">{stock.price}</p>
 				</div>
 			</div>
+			{showActions && (
+				<WatchListActionBar uid={stock.name} />
+			)}
 		</li>
+	);
+};
+
+const WatchListActionBar = ({ uid }) => {
+	return (
+		<div className="actions">
+			<div>
+				<Tooltip
+					title="Buy"
+					placement="top"
+					TransitionComponent={Grow}
+					arrow>
+					<button className="buy">B</button>
+				</Tooltip>
+				<Tooltip
+					title="Sell"
+					placement="top"
+					TransitionComponent={Grow}
+					arrow>
+					<button className="sell">S</button>
+				</Tooltip>
+				<Tooltip
+					title="Analystics"
+					placement="top"
+					TransitionComponent={Grow}
+					arrow>
+					<button className="chart action">
+						<InsightsIcon className="icon" />
+					</button>
+				</Tooltip>
+				<Tooltip
+					title="More"
+					placement="top"
+					TransitionComponent={Grow}
+					arrow>
+					<button className="action">
+						<MoreHorizOutlinedIcon className="icon" />
+					</button>
+				</Tooltip>
+			</div>
+		</div>
 	);
 };
