@@ -9,7 +9,7 @@ const Options = () => {
 				<h2 className="mb-12 text-center lg:text-4xl">
 					Investment options with Zerodha demat account
 				</h2>
-				<div className="grid md:grid-cols-2 gap-10 lg:gap-x-36 lg:gap-y-20 place-items-start lg:mt-20">
+				<div className="holder grid md:grid-cols-2 gap-10 lg:gap-x-36 lg:gap-y-20 place-items-start lg:mt-20">
 					<InvestOpts />
 				</div>
 				<div className="text-center my-4">
