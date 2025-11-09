@@ -19,10 +19,11 @@
 	},
 	"license": "MIT",
 	"author": "Vedant Patil",
-	"type": "commonjs",
+	"type": "module",
 	"main": "index.js",
 	"scripts": {
-		"start": "nodemon index.js"
+		"start": "node index.js",
+		"dev": "nodemon index.js"
 	},
 	"devDependencies": {
 		"nodemon": "^3.1.10"

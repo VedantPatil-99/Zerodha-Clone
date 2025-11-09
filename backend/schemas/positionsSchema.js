@@ -1,6 +1,6 @@
 import { Schema } from "mongoose";
 
-export default positionsSchema = new Schema({
+const positionsSchema = new Schema({
 	product: String,
 	name: String,
 	qty: Number,
@@ -10,3 +10,5 @@ export default positionsSchema = new Schema({
 	day: String,
 	isLoss: Boolean,
 });
+
+export default positionsSchema;

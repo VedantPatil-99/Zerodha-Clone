@@ -1,5 +1,5 @@
 import { model } from "mongoose";
-import ordersSchema from "../schemas/ordersSchema";
+import ordersSchema from "../schemas/ordersSchema.js";
 
 const Order = new model("Order", ordersSchema);
-module.exports = Order;
+export default Order;

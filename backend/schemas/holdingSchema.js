@@ -1,10 +1,13 @@
-const { Schema } = require("mongoose");
+import { Schema } from "mongoose";
 
-export default holdingsSchema = new Schema({
+const holdingsSchema = new Schema({
 	name: String,
 	qty: Number,
 	avg: Number,
 	price: Number,
 	net: String,
 	day: String,
+	isLoss: { type: Boolean, default: false },
 });
+
+export default holdingsSchema;
