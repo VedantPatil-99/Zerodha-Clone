@@ -2,7 +2,7 @@ import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 import KeyboardArrowUpIcon from "@mui/icons-material/KeyboardArrowUp";
 import Tooltip from "@mui/material/Tooltip";
 import { useState } from "react";
-import { watchlist } from "./../data/demoData";
+import { watchlist } from "../data/demoData";
 // import Button from "@mui/material/Button";
 import InsightsIcon from "@mui/icons-material/Insights";
 import { Grow } from "@mui/material";
