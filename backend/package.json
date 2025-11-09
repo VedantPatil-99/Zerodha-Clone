@@ -1,0 +1,41 @@
+{
+	"name": "backend",
+	"version": "1.0.0",
+	"description": "Node.js API for the Zerodha Clone project. Handles authentication, market data, and user portfolio management.",
+	"keywords": [
+		"node",
+		"express",
+		"trading",
+		"finance",
+		"zerodha"
+	],
+	"homepage": "https://github.com/vedantpatil-99/zerodha-clone#readme",
+	"bugs": {
+		"url": "https://github.com/vedantpatil-99/zerodha-clone/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/vedantpatil-99/zerodha-clone.git"
+	},
+	"license": "MIT",
+	"author": "Vedant Patil",
+	"type": "commonjs",
+	"main": "index.js",
+	"scripts": {
+		"start": "nodemon index.js"
+	},
+	"devDependencies": {
+		"nodemon": "^3.1.10"
+	},
+	"dependencies": {
+		"body-parser": "^2.2.0",
+		"cors": "^2.8.5",
+		"dotenv": "^17.2.3",
+		"express": "^5.1.0",
+		"mongodb": "^7.0.0",
+		"mongoose": "^8.19.3",
+		"passport": "^0.7.0",
+		"passport-local": "^1.0.0",
+		"passport-local-mongoose": "^8.0.0"
+	}
+}
