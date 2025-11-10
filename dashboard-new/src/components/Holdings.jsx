@@ -1,25 +1,44 @@
 import { useState } from "react";
-// import { holdings } from "../data/demoData";
-import { useEffect } from "react";
 import axios from "axios";
+import { useEffect } from "react";
+import { VerticalStocksChart } from "./VerticalStocksChart";
+
 const Holdings = () => {
 	const [holdings, setHoldings] = useState([]);
 
 	const holdingsFetchURL =
 		"http://localhost:8081/holdings";
+
 	useEffect(() => {
 		axios.get(holdingsFetchURL).then((res) => {
-			console.log(res);
+			// console.log(res);
 			setHoldings(res.data);
 		});
 	}, []);
+
+	const labels = holdings.map(
+		(stock) => stock["name"],
+	);
+
+	const data = {
+		labels,
+		datasets: [
+			{
+				label: "Stock Price",
+				data: holdings.map(
+					(stock) => stock.price,
+				),
+				backgroundColor:
+					"rgba(99, 133, 255, 0.5)",
+			},
+		],
+	};
 
 	return (
 		<>
 			<h3 className="title">
 				Holdings ({holdings.length})
 			</h3>
-
 			<div className="order-table">
 				<table>
 					<thead>
@@ -95,6 +114,7 @@ const Holdings = () => {
 					<p>P&L</p>
 				</div>
 			</div>
+			<VerticalStocksChart data={data} />
 		</>
 	);
 };
