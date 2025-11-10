@@ -2,9 +2,9 @@ import { Schema } from "mongoose";
 
 const ordersSchema = new Schema({
 	name: String,
+	qty: Number,
 	price: Number,
-	percent: String,
-	isDown: Boolean,
+	mode: String,
 });
 
 export default ordersSchema;

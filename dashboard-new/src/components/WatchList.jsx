@@ -7,6 +7,8 @@ import { watchlist } from "../data/demoData";
 import InsightsIcon from "@mui/icons-material/Insights";
 import { Grow } from "@mui/material";
 import MoreHorizOutlinedIcon from "@mui/icons-material/MoreHorizOutlined";
+import { useContext } from "react";
+import GeneralContext from "./GeneralContext";
 
 const WatchList = () => {
 	return (
@@ -81,6 +83,13 @@ const WatchListItem = ({ stock }) => {
 };
 
 const WatchListActionBar = ({ uid }) => {
+	const generalContext = useContext(
+		GeneralContext,
+	);
+
+	const handleBuyClick = () => {
+		generalContext.openBuyWindow(uid);
+	};
 	return (
 		<div className="actions">
 			<div>
@@ -88,6 +97,7 @@ const WatchListActionBar = ({ uid }) => {
 					title="Buy"
 					placement="top"
 					TransitionComponent={Grow}
+					onClick={handleBuyClick}
 					arrow>
 					<button className="buy">B</button>
 				</Tooltip>
