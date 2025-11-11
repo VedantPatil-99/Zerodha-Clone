@@ -1,14 +1,41 @@
+import { useState, useContext } from "react";
+import GeneralContext from "./GeneralContext";
+import { watchlist } from "../data/demoData";
+
+import Tooltip from "@mui/material/Tooltip";
+import InsightsIcon from "@mui/icons-material/Insights";
+import MoreHorizOutlinedIcon from "@mui/icons-material/MoreHorizOutlined";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 import KeyboardArrowUpIcon from "@mui/icons-material/KeyboardArrowUp";
-import Tooltip from "@mui/material/Tooltip";
-import { useState } from "react";
-import { watchlist } from "./../data/demoData";
-// import Button from "@mui/material/Button";
-import InsightsIcon from "@mui/icons-material/Insights";
 import { Grow } from "@mui/material";
-import MoreHorizOutlinedIcon from "@mui/icons-material/MoreHorizOutlined";
+
+import { PieChart } from "./PieChart";
+import { stringToColor } from "../utils/chartHelpers.js";
 
 const WatchList = () => {
+	const labels = watchlist.map(
+		(stock) => stock.name,
+	);
+	const data = {
+		labels,
+		datasets: [
+			{
+				label: "Stock Price",
+				data: watchlist.map(
+					(stock) => stock.price,
+				),
+				backgroundColor: watchlist.map((stock) =>
+					stringToColor(stock.name, 0.2),
+				),
+				borderColor: watchlist.map(
+					(stock) =>
+						stringToColor(stock.name, 1.0), // Same unique color, 100% opacity
+				),
+				borderWidth: 1,
+			},
+		],
+	};
+
 	return (
 		<div className="watchlist-container">
 			<div className="search-container">
@@ -32,6 +59,9 @@ const WatchList = () => {
 					);
 				})}
 			</ul>
+			<div style={{ marginBottom: "40px" }}>
+				<PieChart data={data} />
+			</div>
 		</div>
 	);
 };
@@ -81,6 +111,13 @@ const WatchListItem = ({ stock }) => {
 };
 
 const WatchListActionBar = ({ uid }) => {
+	const generalContext = useContext(
+		GeneralContext,
+	);
+
+	const handleBuyClick = () => {
+		generalContext.openBuyWindow(uid);
+	};
 	return (
 		<div className="actions">
 			<div>
@@ -88,6 +125,7 @@ const WatchListActionBar = ({ uid }) => {
 					title="Buy"
 					placement="top"
 					TransitionComponent={Grow}
+					onClick={handleBuyClick}
 					arrow>
 					<button className="buy">B</button>
 				</Tooltip>

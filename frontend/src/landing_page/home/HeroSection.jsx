@@ -1,5 +1,6 @@
 import homeHero from "@assets/images/homeHero.png";
 import Button from "@components/common/Button";
+import { Link } from "react-router-dom";
 const HeroSection = () => {
 	return (
 		<>
@@ -14,10 +15,13 @@ const HeroSection = () => {
 						Invest in everything
 					</h1>
 					<p className="text-xl text-gray-700 mb-10">
-						Online platform to invest in stocks, derivatives, mutual funds,
-						ETFs, bonds, and more.
+						Online platform to invest in stocks,
+						derivatives, mutual funds, ETFs,
+						bonds, and more.
 					</p>
-					<Button>Sign up for free</Button>
+					<Link to={"/sign-up"}>
+						<Button>Sign up for free</Button>
+					</Link>
 				</div>
 			</section>
 		</>
