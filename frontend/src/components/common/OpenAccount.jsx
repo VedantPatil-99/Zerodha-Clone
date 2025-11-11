@@ -1,4 +1,5 @@
 import Button from "@components/common/Button";
+import { Link } from "react-router-dom";
 
 const OpenAccount = () => {
 	return (
@@ -9,10 +10,13 @@ const OpenAccount = () => {
 						Open a Zerodha account
 					</h1>
 					<p className="text-lg text-gray-600 opacity-95 mb-10 font-normal font-stretch-condensed">
-						Modern platforms and apps, ₹0 investments, and flat ₹20 intraday and
+						Modern platforms and apps, ₹0
+						investments, and flat ₹20 intraday and
 						F&O trades.
 					</p>
-					<Button>Sign up for free</Button>
+					<Link to={"/sign-up"}>
+						<Button>Sign up for free</Button>
+					</Link>
 				</div>
 			</section>
 		</>
