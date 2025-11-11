@@ -1,52 +1,114 @@
-import bodyParser from "body-parser";
-import cors from "cors";
 import "dotenv/config";
 import express from "express";
 import mongoose from "mongoose";
+import cors from "cors";
+import cookieParser from "cookie-parser";
+import helmet from "helmet";
+
 import Holding from "./models/holding.js";
 import Position from "./models/position.js";
 import Order from "./models/order.js";
+
+import authRoute from "./routes/authRoutes.js";
 
 const app = express();
 
 const PORT = process.env.PORT || 8081;
 const MONGO_URI = process.env.MONGO_URL;
+const CLIENT_URL =
+	process.env.CLIENT_URL ||
+	"http://localhost:5173";
 
-app.use(cors());
-app.use(bodyParser.json());
+app.use(helmet());
 
+app.use(express.json());
+app.use(cookieParser());
+
+app.use(
+	cors({
+		origin: [CLIENT_URL, "http://localhost:5173"],
+		methods: [
+			"GET",
+			"POST",
+			"PUT",
+			"DELETE",
+			"PATCH",
+		],
+		credentials: true,
+		exposedHeaders: ["Set-Cookie"],
+	}),
+);
+
+app.use("/", authRoute);
 app.get("/holdings", async (req, res) => {
-	const allHoldings = await Holding.find({});
-	// console.log(allHoldings);
-	res.json(allHoldings);
+	try {
+		const allHoldings = await Holding.find(
+			{},
+		).lean();
+		res.status(200).json({ data: allHoldings });
+	} catch (err) {
+		console.error(
+			"Error fetching holdings:",
+			err,
+		);
+		res.status(500).json({
+			message: "Failed to fetch holdings data.",
+		});
+	}
 });
 
 app.get("/positions", async (req, res) => {
-	const allPositions = await Position.find({});
-	// console.log(allPositions);
-	res.json(allPositions);
+	try {
+		const allPositions = await Position.find(
+			{},
+		).lean();
+		res.status(200).json({ data: allPositions });
+	} catch (err) {
+		console.error(
+			"Error fetching positions:",
+			err,
+		);
+		res.status(500).json({
+			message: "Failed to fetch positions data.",
+		});
+	}
 });
 
 app.post("/order", async (req, res) => {
+	const { name, qty, price, mode } = req.body;
+
+	if (!name || !qty || !price || !mode) {
+		return res.status(400).json({
+			message: "Missing required order fields.",
+		});
+	}
+
 	const newOrder = new Order({
-		name: req.body.name,
-		qty: req.body.qty,
-		price: req.body.price,
-		mode: req.body.mode,
+		name,
+		qty,
+		price,
+		mode,
 	});
 
 	try {
 		const order = await newOrder.save();
-		console.log(order);
+		console.log(
+			`New Order Saved: ${order.name} (${order.qty})`,
+		);
+
 		res.status(201).json({
-			message: "New Order saved.",
-			data: req.data,
+			message: "Order placed successfully.",
+			data: order,
 		});
 	} catch (err) {
-		console.log("Error in saving order.");
-		res.status(402).json({
-			message: "Error in saving order.",
-			data: req.data,
+		console.error(
+			"Error in saving order:",
+			err.message,
+		);
+
+		res.status(500).json({
+			message: "Server failed to process order.",
+			error: err.message,
 		});
 	}
 });
